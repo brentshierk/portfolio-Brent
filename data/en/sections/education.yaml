@@ -4,21 +4,32 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 4
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
-- name: "BS - Information Sciences & Technology (IS&T)"
-  icon: "fa-graduation-cap"
-  timeframe: "2007-2011"
-  institution:
-    name: "Temple University"
-    url: "https://temple.edu"
-- name: ""
-  icon: "fa-university"
-  timeframe: "2006-2007"
-  institution:
-    name: "Montgomery County Community College (MC3)"
-    url: "https://mc3.edu"
+  - name: Bachelors of computer science
+    icon: fa-graduation-cap
+    timeframe: 2020-2022
+    institution:
+      name: Dominican University of California
+    takenCourses: #(optional)
+      courses:
+        - name: Data structures & Algorithms
+        - name: Server-Side Architecture
+        - name: DevOps/Deployment
+        - name: Strong Type Lang(GO)
+        - name: Advance Web Patterns
+
+
+  - name: Computer Science Coding Bootcamp
+    icon: fa-school
+    timeframe: 2018
+    institution:
+      name: Columbia University
+    TakenCourses:
+      - Designed and Developed 20 web applications using MERN stack amongst other web libraries and frameworks
+      - Collaborated with peers on milestone projects and developed project workflow
+

@@ -1,82 +1,52 @@
-# section information
 section:
-  name: About
-  id: about
-  enable: true
-  weight: 1
-  showOnNavbar: true
-  template: sections/about.html
+  name: About # Title of section (default: "")
+  id: about # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: false # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/about.html #
 
 # your designation
-designation: Sr. Engineering Manager
-# your company information
+designation: Software Engineerr
+  # your company information
 
-# your resume. this file path should be relative to you "static" directory
-resume: "files/kaufmann_resume.pdf"
 
 # a summary about you
-summary: "I am a passionate IT individual at heart. Starting off in the typical Desktop Support roles, moving into Engineering and currently landing
-myself in Management. On the side I look towards building my skillset with **Cloud Native Technology**, like **[Kubernetes](https://kubernetes.io)**."
+summary: 'I have found my “thing.”
+
+In the past I was not sure of what I wanted to do for a career. I thought about going into medicine or politics as I found those topics interesting enough but neither made me feel inspired. While living in New York, by chance I met a group of mentors working as Software Engineers. I began teaching myself how to code basic web apps, enrolled in a bootcamp, pursued my bachelors degree and over the last 4 years, my inspiration has never wavered- it is what keeps me motivated.
+
+The inspiration for coding hasn’t wavered, I learned that I love solving difficult problems. The rush that I get once breaking through a bug or blocker keeps me going-that feeling of figuring it out. The excitement I feel as a developer allows me to look forward to the next big problem… just knowing that I have the knowledge and motivation to get through it and become a bit better of an engineer. Every problem I master is like me chipping away and getting to the core of what it is to be an engineer.
+
+I am a quick learner. My skills are centered in the programming languages, problem solving, REST API’s, OOP design, and website optimizations. Currently I am proficient in Go(Golang), Python, Node.js, Express.js, React,Flask, MongoDB, mySQL, Docker, and AWS. I’m still enthusiastically learning more about all things that exist in the software development sphere as it is an ever evolving world of knowledge! '
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "tom@iteverything.io"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "brents.dev@gmail.com"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/tom-iteverything"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/brentshierk"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://linkedin.com/in/tommykaufmann"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/brent-shierk-107"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/tommykwtf"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "https://facebook.com/tommy.kaufmann"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-#- type: certification
-#  name: Certified Kubernetes Security Specialist
-#  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-#- type: certification
-#  name: Istio and IBM Cloud Kubernetes Service
-#  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-#- type: certification
-#  name: Artificial Intelligence and Machine Learning
-#  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-#  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Communication
-  percentage: 90
-  color: "#ed2a1c"
-
-- type: soft-skill-indicator
-  name: Jokester
-  percentage: 100
-  color: green
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+softSkills:
+  - name: Communication
+    percentage: 100
+    color: blue
+  - name: Team Work
+    percentage: 100
+    color: yellow
+  - name: empathy
+    percentage : 100
+    color: purple

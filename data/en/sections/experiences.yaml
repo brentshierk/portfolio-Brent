@@ -1,74 +1,40 @@
 # section information
 section:
-  name: Experiences
+  name: Work Experience
   id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
-- company:
-    name: Cigna
-    url: "https://cigna.com"
-    location: WAH/WFH/Remote
-    overview: Providing leadership & future direction of technology for DevOps engineers.
-  positions:
-  - designation: Sr. Engineering Manager (Infrastructure)
-    start: Mar 2019
-    #end: Mar 2017
-    responsibilities:
-    - Oversee multi-million AUM for licensure
-    - Provide knowledge & feedback in POC efforts for new technologies
-    - Hire/Develop to guide careers of engineers
-    - Consume coffee
+  - company:
+      name: Freelance Developer
+      location: New York,NY
+      # company overview
+      overview: Created a FullStack web application for a personal trainer.
+    positions:
+      - designation: Software Engineer
+        start: Nov 2019
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - Implement frontend UI with Vue.js and custom components.
+          - create backend server to handle datastorage and API request
+          - create custom built CMS that handles daily changes to the application's state.
 
-- company:
-    name: Cigna
-    url: "https://cigna.com"
-    location: Philadelphia, PA
-    overview: Technical lead for Operations across multiple critical shared infrastructure services.
-  positions:
-  - designation: Sr. Infrastructure Engineer
-    start: Mar 2017
-    end: Mar 2019
-    responsibilities:
-    - Excelled in Operations to lower SLA response time & resolution
-    - Provided triaging efforts to resolve any infrastructure-related issue with an application
-    - Learned multiple technologies in the Middleware-stack
-    - Took part in the _dreaded pager rotation_
-
-- company:
-    name: Cigna
-    url: "https://cigna.com"
-    location: Philadelphia, PA
-    overview: Working in Systems Management providing Infrastructure & Application Performance Monitoring.
-  positions:
-  - designation: Infrastructure Engineer (TECDP)
-    start: Jan 2014
-    end: Mar 2017
-    responsibilities:
-    - Provided Application Performance Monitoring via **CA APM Introscope (Wily)** to multiple Applications
-    - Defined KPIs & created standard, and custom, dashboards for customers
-    - Assisted with development of automation for delivering monitoring faster
-    - Attended multiple fundraisers with the TECDP Program & affiliates
-
-- company:
-    name: UPenn - Veterinary School
-    url: "https://www.vet.upenn.edu/"
-    location: Philadelphia, PA
-    # company overview
-    overview: School of Veterinary Medicine & Ryan Veterinary Hospital. Conducting
-  positions:
-  - designation: IT Technical Support
-    start: Jan 2012
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: Jan 2014
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Create & Deploy desktop images
-    - Investigate & resolve any issue for IT-related equipment
-    - Provide AVN support to all faculty & staff
-    - Pet every single puppy & kitty possible
+  - company:
+      name: FosterDogs INC.
+      url: "https://www.preexample.com"
+      location: New York,NY
+      overview: Maintained and developed new features for the existing application using Ruby on Rails
+    positions:
+      - designation: Volunteer Software Engineer
+        start: March 2016
+        end: May 2017
+        responsibilities:
+          - Designed tools and productivity features for Foster Roster Admin portal
+          - Handeled SQL bugs

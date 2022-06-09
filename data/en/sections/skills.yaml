@@ -11,26 +11,17 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Learning more & more about orchestration and how to become better."
-  url: "https://kubernetes.io/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Took multiple course in AWS, slowly working towards a certificate or two as I strengthen my skillset."
 
-#- name: Docker
-#  logo: /images/sections/skills/docker.svg
-#  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-#  url: "https://www.docker.com/"
+  - name: Backend Development
+    #logo: "/images/sections/skills/1go.png"
+    summary: "Expierence creating server-side applications primarily with Go & python from API's to TUI applications. I am capable of writing scalable, testable, and maintainable programs."
+    url: "https://golang.org/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "This is what all my environments are built out of. Capable of writing bash/shell scripts."
+  - name: Frontend Development
+    #logo: "/images/sections/skills/gummy-floppy.svg"
+    summary: "Expierence creating Reactive web applications using React & Vue.js. While not my strong suit I am always capable of getting the job done. "
 
-- name: GitHub
-  logo: /images/sections/skills/github.png
-  summary: "Working consistently within GitHub, day-to-day. Also have experience within GitLab too!"
-  url: "https://github.com/"
-
+  - name: Databases
+    #logo: "/images/sections/skills/gummy-floppy.svg"
+    summary: "I've worked both SQL and noSQL databases like mySQL and Mongodb and have a strong understanding of concepts like table-joins and sub-queries "

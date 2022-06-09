@@ -2,9 +2,9 @@
 section:
   name: Projects
   id: projects
-  enable: false
-  weight: 5
-  showOnNavbar: false
+  enable: true
+  weight: 4
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -14,18 +14,40 @@ section:
 #  filter: "all"
 #- name: Professional
 #  filter: "professional"
-#- name: Academic
-#  filter: "academic"
-#- name: Hobby
-#  filter: "hobby"
 
 # your projects
-#projects:
-#- name: Kubernetes
-#  logo: /images/sections/projects/kubernetes.png
-#  role: Contributor
-#  timeline: "March 2018 - Present"
-#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-#  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-#  summary: Production-Grade Container Scheduling and Management.
-#  tags: ["professional", "kubernetes", "cloud"]
+projects:
+  - name: Microservice gateway(1/5)
+    #    logo: /images/sections/projects/kubernetes.png
+    role: Developer
+    repo: https://github.com/brentshierk/poppyshop-grpc-api-gateway # If your project is a public repo on GitHub, then provide this link. it will show star count.
+    #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+    summary: Entry point for ecommerce microservices
+    tags: ["Active development", "Golang", "SQL"]
+
+  - name: Auth microservice
+    #    logo: /images/sections/projects/tensorflow.png
+    role: Developer
+    repo: https://github.com/brentshierk/cli-chat
+    #url: ""
+    summary: Handels Auth requests
+    tags: ["Golang", "websockets"]
+
+  - name: Payment microservice
+    #    logo: /images/sections/projects/toha.png
+    role: Developer
+    repo: https://github.com/brentshierk/utilityProject
+    summary: Handels payment requests
+    tags: ["Concurrency","Golang","TUI"]
+
+  - name: Users microservice
+    role: Developer
+    repo: https://github.com/brentshierk/utilityProject
+    summary: creates users,
+    tags: [ "Concurrency","Golang","TUI" ]
+
+  - name: products microservice
+    role: dev
+    repo: https://github.com/brentshierk/utilityProject
+    summary: enables client to add products
+    tags: [ "Concurrency","Golang","TUI" ]
